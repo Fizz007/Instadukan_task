@@ -7,7 +7,7 @@ const Home = () => {
  
   return (
     <div>
-      <h1>Ferry Products</h1>
+      <h1 style={{textAlign:'center'}}>Ferry Products</h1>
       <Row gutter={12}>
         {ferry &&
           ferry.map((product, index) => (
